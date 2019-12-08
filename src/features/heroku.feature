@@ -20,6 +20,13 @@ Feature: Heroku
   #   Then Click the login button again
   #   Then I will see the user is logged in
 
+  # Scenario: Test Checkboxes links - Passing
+  #   Given I click on the Checkbox link
+  #   Then I check Checkbox 1
+  #   Then I will verify that Checkbox 1 is checked
+  #   Then I uncheck Checkbox 2
+  #   Then I will verify that Checkbox 2 is NOT checked
+
   # Scenario: Test Dynamic Content link
   #   Given I click on the Dynamic Content link
   #   Then print in the console the link to the avatar
