@@ -9,7 +9,7 @@ Feature: Heroku
   #   Then I select Option 2
   #   Then I will verify that Option 2 is selected
 
-  # Scenario: Test Form Authentication
+  # Scenario: Test Form Authentication - Passing
   #   Given I click on Form Authentication link
   #   Then I fill in the username with: "user"
   #   Then I fill in the password with: "SuperSecretPassword!"
@@ -19,13 +19,6 @@ Feature: Heroku
   #   When I fill in the username and password fields with the correct values
   #   Then Click the login button again
   #   Then I will see the user is logged in
-
-  Scenario: Test Checkboxes links
-    Given I click on the Checkbox link
-    Then I select Option 1
-    Then I will verify that Option 1 is selected
-    Then I select Option 2
-    Then I will verify that Option 2 is selected
 
   # Scenario: Test Dynamic Content link
   #   Given I click on the Dynamic Content link
