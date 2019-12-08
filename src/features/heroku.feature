@@ -9,23 +9,23 @@ Feature: Heroku
   #   Then I select Option 2
   #   Then I will verify that Option 2 is selected
 
-  Scenario: Test Form Authentication
-    Given I click on Form Authentication link
-    Then I fill in the username with: 'user'
-    Then I fill in the password
-    When I append '@email.com' to the username
-    Then I click the login button
-    Then I will see an error
-    When I fill in the username and password with the correct values
-    Then Click the login button
-    Then I will see the user is logged in
+  # Scenario: Test Form Authentication
+  #   Given I click on Form Authentication link
+  #   Then I fill in the username with: "user"
+  #   Then I fill in the password with: "SuperSecretPassword!"
+  #   When I append '@email.com' to the username so it is: "username@email.com"
+  #   Then I click the login button
+  #   Then I will see an error
+  #   When I fill in the username and password fields with the correct values
+  #   Then Click the login button again
+  #   Then I will see the user is logged in
 
-  # Scenario: Test Checkboxes links
-  #   Given I click on the Checkbox link
-  #   Then I select Option 1
-  #   Then I will verify that Option 1 is selected
-  #   Then I select Option 2
-  #   Then I will verify that Option 2 is selected
+  Scenario: Test Checkboxes links
+    Given I click on the Checkbox link
+    Then I select Option 1
+    Then I will verify that Option 1 is selected
+    Then I select Option 2
+    Then I will verify that Option 2 is selected
 
   # Scenario: Test Dynamic Content link
   #   Given I click on the Dynamic Content link
