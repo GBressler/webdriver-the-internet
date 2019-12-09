@@ -1,0 +1,191 @@
+{
+  "uid" : "fd704640178e06df",
+  "name" : "I click on the Checkbox link",
+  "fullName" : "Heroku Test Checkboxes links - Passing.I click on the Checkbox link",
+  "historyId" : "7ff511b64816ee2dfddd95dd2897f094",
+  "time" : {
+    "start" : 1575853811442,
+    "stop" : 1575853815071,
+    "duration" : 3629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element",
+      "time" : {
+        "start" : 1575853811445,
+        "stop" : 1575853811483,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2da0c03f0de3436f",
+        "name" : "Request",
+        "source" : "2da0c03f0de3436f.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "97535c89804e263f",
+        "name" : "Response",
+        "source" : "97535c89804e263f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/elements",
+      "time" : {
+        "start" : 1575853811497,
+        "stop" : 1575853811529,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f2d71fe32f7fe1c9",
+        "name" : "Request",
+        "source" : "f2d71fe32f7fe1c9.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "2b160b6fc7f27df",
+        "name" : "Response",
+        "source" : "2b160b6fc7f27df.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element/0.5868234365857357-1/displayed",
+      "time" : {
+        "start" : 1575853811538,
+        "stop" : 1575853811574,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8313f34c77db8568",
+        "name" : "Response",
+        "source" : "8313f34c77db8568.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element",
+      "time" : {
+        "start" : 1575853811578,
+        "stop" : 1575853811614,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46bad562bcf6f77b",
+        "name" : "Request",
+        "source" : "46bad562bcf6f77b.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "1102dbf15869b478",
+        "name" : "Response",
+        "source" : "1102dbf15869b478.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element/0.5868234365857357-1/click",
+      "time" : {
+        "start" : 1575853811627,
+        "stop" : 1575853812078,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8afe8628fe8315ba",
+        "name" : "Response",
+        "source" : "8afe8628fe8315ba.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testClass",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the Checkbox link"
+  }, {
+    "name" : "package",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd704640178e06df.json",
+  "parameterValues" : [ "chrome" ]
+}

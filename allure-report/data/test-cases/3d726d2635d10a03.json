@@ -1,0 +1,116 @@
+{
+  "uid" : "3d726d2635d10a03",
+  "name" : "I will verify that Checkbox 2 is NOT checked",
+  "fullName" : "Heroku Test Checkboxes links - Passing.I will verify that Checkbox 2 is NOT checked",
+  "historyId" : "4c70fedd2866e15b6009620f9f0b4da",
+  "time" : {
+    "start" : 1575853821358,
+    "stop" : 1575853821424,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element",
+      "time" : {
+        "start" : 1575853821361,
+        "stop" : 1575853821387,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb34c21ecc044f24",
+        "name" : "Request",
+        "source" : "fb34c21ecc044f24.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "437295fe69d0d8aa",
+        "name" : "Response",
+        "source" : "437295fe69d0d8aa.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element/0.5206405680714115-2/selected",
+      "time" : {
+        "start" : 1575853821398,
+        "stop" : 1575853821419,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a015cfba1b607f07",
+        "name" : "Response",
+        "source" : "a015cfba1b607f07.json",
+        "type" : "application/json",
+        "size" : 92
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testClass",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testMethod",
+    "value" : "I will verify that Checkbox 2 is NOT checked"
+  }, {
+    "name" : "package",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d726d2635d10a03.json",
+  "parameterValues" : [ "chrome" ]
+}

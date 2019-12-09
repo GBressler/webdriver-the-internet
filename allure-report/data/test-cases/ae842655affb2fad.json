@@ -1,0 +1,116 @@
+{
+  "uid" : "ae842655affb2fad",
+  "name" : "I uncheck Checkbox 2",
+  "fullName" : "Heroku Test Checkboxes links - Passing.I uncheck Checkbox 2",
+  "historyId" : "dc0118b01781a0573dbccc14fe24516",
+  "time" : {
+    "start" : 1575853818247,
+    "stop" : 1575853821358,
+    "duration" : 3111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element",
+      "time" : {
+        "start" : 1575853818250,
+        "stop" : 1575853818285,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30eeb77df4c32b84",
+        "name" : "Request",
+        "source" : "30eeb77df4c32b84.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "d9b18c14dc038aa5",
+        "name" : "Response",
+        "source" : "d9b18c14dc038aa5.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/element/0.5206405680714115-2/click",
+      "time" : {
+        "start" : 1575853818285,
+        "stop" : 1575853818344,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d59b0d0bb1b5027",
+        "name" : "Response",
+        "source" : "3d59b0d0bb1b5027.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testClass",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testMethod",
+    "value" : "I uncheck Checkbox 2"
+  }, {
+    "name" : "package",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae842655affb2fad.json",
+  "parameterValues" : [ "chrome" ]
+}

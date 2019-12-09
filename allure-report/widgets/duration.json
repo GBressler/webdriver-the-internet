@@ -1,0 +1,61 @@
+[ {
+  "uid" : "3d726d2635d10a03",
+  "name" : "I will verify that Checkbox 2 is NOT checked",
+  "time" : {
+    "start" : 1575853821358,
+    "stop" : 1575853821424,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae842655affb2fad",
+  "name" : "I uncheck Checkbox 2",
+  "time" : {
+    "start" : 1575853818247,
+    "stop" : 1575853821358,
+    "duration" : 3111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e94c0d13533ad196",
+  "name" : "I navigate to \"http://the-internet.herokuapp.com/\"",
+  "time" : {
+    "start" : 1575853809692,
+    "stop" : 1575853811441,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6254696ef404239a",
+  "name" : "I will verify that Checkbox 1 is checked",
+  "time" : {
+    "start" : 1575853818184,
+    "stop" : 1575853818246,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49af61176f9bd08f",
+  "name" : "I check Checkbox 1",
+  "time" : {
+    "start" : 1575853815071,
+    "stop" : 1575853818183,
+    "duration" : 3112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd704640178e06df",
+  "name" : "I click on the Checkbox link",
+  "time" : {
+    "start" : 1575853811442,
+    "stop" : 1575853815071,
+    "duration" : 3629
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

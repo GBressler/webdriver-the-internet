@@ -70,3 +70,11 @@
 <li><a href="https://martinfowler.com/bliki/PageObject.html">https://martinfowler.com/bliki/PageObject.html</a></li>
 </ul>
 
+Allure Reports:
+1.  Install npm package
+2.  Install Allure CLI
+3.  Check wdio.config.js, add allure to the reports type and uncomment the path to where it will save files
+4.  Mkdir the folders following the path as described in step 3
+5.  In the terminal run: allure serve /path/to/yourFiles 
+    e.g.    allure serve ~/Workspace2019/Ok/exercises/Ex4\ -\ Heroku/src/reports/allure
+6.  Crtl+C to exit 

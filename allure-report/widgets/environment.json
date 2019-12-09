@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/features/heroku.feature\"]" ],
+  "name" : "spec files"
+} ]

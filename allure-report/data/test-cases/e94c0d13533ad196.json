@@ -1,0 +1,116 @@
+{
+  "uid" : "e94c0d13533ad196",
+  "name" : "I navigate to \"http://the-internet.herokuapp.com/\"",
+  "fullName" : "Heroku Test Checkboxes links - Passing.I navigate to \"http://the-internet.herokuapp.com/\"",
+  "historyId" : "9d201111fa72885e56c9c9b8fafd1b01",
+  "time" : {
+    "start" : 1575853809692,
+    "stop" : 1575853811441,
+    "duration" : 1749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/fe268a3addc6373d0a5ce51193652311/url",
+      "time" : {
+        "start" : 1575853809697,
+        "stop" : 1575853811390,
+        "duration" : 1693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a90d9f3c158a798",
+        "name" : "Request",
+        "source" : "3a90d9f3c158a798.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "5ecdfe8e3f01c5e3",
+        "name" : "Response",
+        "source" : "5ecdfe8e3f01c5e3.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/fe268a3addc6373d0a5ce51193652311/url",
+      "time" : {
+        "start" : 1575853811408,
+        "stop" : 1575853811430,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f51f47d6d2276a6",
+        "name" : "Response",
+        "source" : "8f51f47d6d2276a6.json",
+        "type" : "application/json",
+        "size" : 123
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testClass",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "testMethod",
+    "value" : "I navigate to \"http://the-internet.herokuapp.com/\""
+  }, {
+    "name" : "package",
+    "value" : "Heroku Test Checkboxes links - Passing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e94c0d13533ad196.json",
+  "parameterValues" : [ "chrome" ]
+}
