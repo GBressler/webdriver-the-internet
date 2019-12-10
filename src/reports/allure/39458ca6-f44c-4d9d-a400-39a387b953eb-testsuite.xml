@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1575948623457' stop='1575948628885'>
+    <name>Heroku Test Downloading Files</name>
+    <title>Heroku Test Downloading Files</title>
+    <test-cases>
+        <test-case start='1575948623458' status='passed' stop='1575948624957'>
+            <name>I navigate to "http://the-internet.herokuapp.com/"</name>
+            <title>I navigate to "http://the-internet.herokuapp.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/features/heroku.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575948623465' status='passed' stop='1575948624894'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/url</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2f3c3c67-9b69-466c-8a21-20359a36d542-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='08edfd5f-e1b3-42b1-8a9d-5a6b5fa4150a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948624927' status='passed' stop='1575948624946'>
+                    <name>GET /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/url</name>
+                    <title>GET /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/url</title>
+                    <attachments>
+                        <attachment title='Response' source='0e0094ba-b3ad-46eb-b88f-9b2246f1b474-attachment.json' type='application/json' size='123'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575948624957' status='passed' stop='1575948628649'>
+            <name>I click on the File Downloader link</name>
+            <title>I click on the File Downloader link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/features/heroku.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575948624961' status='passed' stop='1575948625017'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9630d8e3-b98c-40db-9a16-d26c07fa1aee-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='d066c0ce-dc60-41fc-8c53-697cd6eb79ad-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948625029' status='passed' stop='1575948625062'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/elements</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9c4ca243-401e-405d-824b-7c0d024f225d-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='10501b11-a64e-4c92-ac15-0e40ac54d794-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948625069' status='passed' stop='1575948625104'>
+                    <name>GET /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7039068287213754-1/displayed</name>
+                    <title>GET /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7039068287213754-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='6eca3721-5c30-4a9f-8bbd-5cda8d59642f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948625111' status='passed' stop='1575948625146'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='87937d81-1ee6-4ed0-b481-4e76fb120619-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='54753f4b-2a98-4b38-ab35-eefbe622a7ef-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948625159' status='passed' stop='1575948625637'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7039068287213754-1/click</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7039068287213754-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2997b830-b812-4b47-b5e5-694129207b8b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575948628650' status='passed' stop='1575948628881'>
+            <name>I will download a .txt file</name>
+            <title>I will download a .txt file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/features/heroku.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575948628652' status='passed' stop='1575948628675'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3fa9c59b-1336-42e4-9395-0a6b63e257d4-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='f880ee9d-e108-4fd7-9241-fd330c4b85b0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575948628681' status='passed' stop='1575948628881'>
+                    <name>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7064559935437182-1/click</name>
+                    <title>POST /wd/hub/session/ed17285d60dbfe422e35546c00a7c61a/element/0.7064559935437182-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='daf3b86f-6615-40b5-bc31-d4875c981819-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575948628881' status='broken' stop='1575948628884'>
+            <name>I will print the contents of the test file in the console</name>
+            <title>I will print the contents of the test file in the console</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/features/heroku.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>path must be a string or Buffer</message>
+                <stack-trace>TypeError: path must be a string or Buffer
+                    at Object.fs.openSync (fs.js:646:18)
+                    at Object.fs.readFileSync (fs.js:551:33)
+                    at World.&lt;anonymous> (/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/src/steps/download_steps.js:17:32)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/home/gregb/Workspace2019/Oktana/exercises/Ex4 - Heroku/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
